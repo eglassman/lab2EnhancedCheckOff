@@ -1,0 +1,56 @@
+        .body-wrapper {
+            position:absolute;
+            top:20px;
+            left:50%;
+            width:1000px;
+            margin-left:-500px; /* Half the width (negative) */
+
+        }
+    
+        .header {
+            position:relative;
+            width:100%;
+            height:1000px;
+            margin-bottom:10px;
+            background:lightblue;
+        }
+    
+        .main {
+            float:left;
+            width:50%;
+
+        }
+    
+        .sidebar {
+            float:right;
+            width:50%;
+        }
+
+        .fullwidthbar {
+            float:left;
+            width:100%;
+            background:lightblue;
+        }
+
+        .fullwidthbarend {
+            float:left;
+            width:100%;
+            background:blue;
+        }
+
+       .inputtext { width: 500px; height: 44px; } 
+       textarea{ 
+            width: 500px; 
+            min-width:500px; 
+            max-width:500px; 
+            height: 600px;
+        }
+        #submitButton {
+            width: 20 em;
+            height: 20 em;
+        }
+        table
+        {
+            table-layout: fixed;
+            width: 1000px;
+        }
